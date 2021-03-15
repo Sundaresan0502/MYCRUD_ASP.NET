@@ -1,5 +1,0 @@
-CREATE PROC PersonIdView
-AS
-BEGIN
-SELECT Details.PersonId,First_Name,Last_Name,Gender,Email,Mobile_Number,Phone_Number,Permanent_Address,Residential_Address FROM Details,PersonAddress where Details.PersonId = PersonAddress.PersonId
-END

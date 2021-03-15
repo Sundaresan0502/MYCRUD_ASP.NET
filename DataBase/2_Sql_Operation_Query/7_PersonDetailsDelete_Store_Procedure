@@ -1,7 +1,0 @@
-CREATE PROC PersonDelete
-@PersonId int
-AS
-	BEGIN
-	DELETE FROM Details WHERE PersonId = @PersonId
-	DELETE FROM PersonAddress WHERE PersonId = @PersonId
-	END
