@@ -1,0 +1,6 @@
+CREATE PROC PersonViewData
+@PersonId int
+AS
+  BEGIN
+  SELECT Details.PersonId,First_Name,Last_Name,Gender,Email,Mobile_Number,Phone_Number,Permanent_Address,Residential_Address from Details,PersonAddress WHERE Details.PersonId = PersonAddress.PersonId AND Details.PersonId = @PersonId
+  END
