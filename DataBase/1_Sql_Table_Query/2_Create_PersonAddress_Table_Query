@@ -1,0 +1,6 @@
+CREATE TABLE PersonAddress(
+PersonId int IDENTITY(1,1) NOT NULL,
+Permanent_Address varchar(250) NOT NULL,
+Residential_Address varchar(250) NOT NULL,
+CONSTRAINT PersonAddress PRIMARY KEY CLUSTERED (PersonId)
+)

@@ -1,0 +1,10 @@
+CREATE TABLE Details(
+PersonId int IDENTITY(1,1) NOT NULL,
+First_Name varchar(50) NOT NULL,
+Last_Name varchar(50) NOT NULL,
+Gender varchar(50) NOT NULL,
+Email varchar(50) NOT NULL,
+Mobile_Number varchar(50) NOT NULL,
+Phone_Number varchar(50) NOT NULL,
+CONSTRAINT Details PRIMARY KEY CLUSTERED (PersonId)
+)
