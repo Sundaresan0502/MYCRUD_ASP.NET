@@ -1,6 +1,6 @@
 # MYCRUD_ASP.NET
 Overview:
-Hey All, Let's make something on ASP.NET. This application contains basic CRUD Opeartion such as Create, Update, Delete. 
+Hey All, Let's make something on ASP.NET. This application contains basic CRUD Operation such as Create, Update, Delete. 
 
 Software Requirements Used:
 * Microsoft Visual Studio 2019.
